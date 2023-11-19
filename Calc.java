@@ -71,3 +71,108 @@ public class Calc
         }
     }
 }
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+    OUTPUT:-
+    
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+G:\Java Projects\jdk-20.0.2\bin>javac Calc.java
+
+G:\Java Projects\jdk-20.0.2\bin>java Calc
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 5
+Calculator exiting. Goodbye!
+
+G:\Java Projects\jdk-20.0.2\bin>clear
+
+
+G:\Java Projects\jdk-20.0.2\bin>javac Calc.java
+
+G:\Java Projects\jdk-20.0.2\bin>java Calc
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 1
+Enter first number: 2
+Enter second number: 3
+Result: 5.0
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 2
+Enter first number: 5
+Enter second number: 6
+Result: -1.0
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 3
+Enter first number: 5
+Enter second number: 5
+Result: 25.0
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 4
+Enter first number: 6
+Enter second number: 5
+Result: 1.2
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 4
+Enter first number: 0
+Enter second number: 2
+Result: 0.0
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 4
+Enter first number: 6
+Enter second number: 0
+Cannot divide by zero.
+Result: NaN
+
+ Enter choice (1.Addition
+ 2.Subtraction
+ 3.Multiplication
+ 4.Division
+ 5.Exit):
+ Your Choise 5
+Calculator exiting. Goodbye!
+
+G:\Java Projects\jdk-20.0.2\bin>
+
+
+
+
+
