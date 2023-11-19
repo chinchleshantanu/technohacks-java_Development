@@ -31,3 +31,36 @@ public class NumrGG {
         scanner.close();
     }
 }
+
+------------------------------------------------------------------------------------------------------------------------------------------
+    OUTPUT:-
+    
+G:\Java Projects\jdk-20.0.2\bin>javac NumrGG.javaa
+error: Class names, 'NumrGG.javaa', are only accepted if annotation processing i
+s explicitly requested
+1 error
+
+G:\Java Projects\jdk-20.0.2\bin>clear
+
+
+G:\Java Projects\jdk-20.0.2\bin>Javac NumrGG.java
+
+G:\Java Projects\jdk-20.0.2\bin>java NumrGG
+Welcome to the Number Guessing Game!
+Guess a number between 1 and 100
+Enter your guess: 5
+Too low! Try again.
+Enter your guess: 15
+Too low! Try again.
+Enter your guess: 50
+Too high! Try again.
+Enter your guess: 45
+Too high! Try again.
+Enter your guess: 25
+Too high! Try again.
+Enter your guess: 20
+Too high! Try again.
+Enter your guess: 18
+Congratulations! You guessed the correct number: 18
+
+G:\Java Projects\jdk-20.0.2\bin>
