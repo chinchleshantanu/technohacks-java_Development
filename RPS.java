@@ -45,3 +45,39 @@ public class RPS {
         scanner.close();
     }
 }
+
+------------------------------------------------------------------------------------------------------------------------------------------
+    OUTPUT:-
+    
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+G:\Java Projects\jdk-20.0.2\bin>javac RPS.java
+
+G:\Java Projects\jdk-20.0.2\bin>java RPS
+Welcome to Rock, Paper, Scissors Game!
+Enter your choice (rock/paper/scissors, or exit to end): Rock
+Computer's choice: paper
+Sorry, you lose. Try again!
+Enter your choice (rock/paper/scissors, or exit to end): Paper
+Computer's choice: paper
+It's a tie!
+Enter your choice (rock/paper/scissors, or exit to end): Scissors
+Computer's choice: paper
+Congratulations! You win!
+Enter your choice (rock/paper/scissors, or exit to end): RoCK
+Computer's choice: paper
+Sorry, you lose. Try again!
+Enter your choice (rock/paper/scissors, or exit to end): PaPEr
+Computer's choice: rock
+Congratulations! You win!
+Enter your choice (rock/paper/scissors, or exit to end): SCISSORS
+Computer's choice: scissors
+It's a tie!
+Enter your choice (rock/paper/scissors, or exit to end): scIssor
+Invalid choice. Please enter rock, paper, or scissors.
+Enter your choice (rock/paper/scissors, or exit to end): Exit
+Game ended. Goodbye!
+
+G:\Java Projects\jdk-20.0.2\bin>
+
